@@ -28,8 +28,9 @@ neededPackagesGithub = c("slidify", "slidifyLibraries")
 packagePathGithub = c("ramnathv/slidify", "ramnathv/slidifyLibraries")
 installPackagesGithub(neededPackages = neededPackagesGithub, packagePath = packagePathGithub)
 
-TalkName = "CCSSOtalk"
-author(TalkName)
+#Only use if creating talk for first time...
+#TalkName = "CCSSOtalk"
+#author(TalkName) 
 
 slidify("index.Rmd")
 servr::httw()

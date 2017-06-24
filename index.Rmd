@@ -450,6 +450,7 @@ $$P\left(Y_{pi} = 1 \middle| \text{ELA}_p, \text{Math}_p \right) = \frac{\exp\le
 # Example of a NGSS-type Item
 <div style="font-size: small;"> Source p. 12 <a href="https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf">https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf</a> </div>
 
+Example item: <a href = "https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf">"https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf"</a>
 <!-- <iframe src="https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf"></iframe> -->
 
 --- 
@@ -726,5 +727,5 @@ Questions? Comments? Complaints?
 - Slides available: <a href="https://goo.gl/8EN132"> https://goo.gl/8EN132</a>
 <hr />
 - Built in R with the slidify package: <a href="http://slidify.org/"> http://slidify.org/</a>
-- 
+- Talk script available: <a href="https://github.com/jonathantemplin/CCSSO-June2017"> https://github.com/jonathantemplin/CCSSO-June2017</a>
 
