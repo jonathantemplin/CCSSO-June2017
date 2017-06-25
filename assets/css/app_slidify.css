@@ -18,8 +18,14 @@ ul {
 	color: #222 !important;
 }
 
+h1{
+  color: #e8000d;
+  font-family: "Helvetica";
+}
+
 h2 {
   color: #0051BA !important;
+  font-family: "Helvetica";
 }
 
 table {
@@ -63,6 +69,7 @@ blue {
   line-height: 1.4;
   letter-spacing: -3px;
   color: #515151 !important;
+  font-family: "Helvetica";
 }
 
 .bigtext{
@@ -91,7 +98,7 @@ body {
   font-size: 45px !important;
   line-height: 200%; !important;
   letter-spacing: -2px !important;
-  color: #0051BA !important;
+  color:  #0051BA !important;
   font-family: "Helvetica";
 }
 
@@ -103,6 +110,7 @@ body {
 slide:not(.segue) h2{
   font-family: 'Helvetica', Arial, sans-serif;
   letter-spacing: -2px;
+  color:#e8000d;
 }
 
 

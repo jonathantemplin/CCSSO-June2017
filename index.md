@@ -22,20 +22,20 @@ body {background:grey transparent;}
 
 
 >- A what, why, and how of multidimensional assessment methods
->  - How we can design NGSS assessments to provide multiple sources of information about students
->- Expanding the menu of available options for providing actionable assessment
+>  - How we can design Next Generation Science Standards (NGSS) assessments to provide multiple sources of information about students
+>- Expanding the menu of available options for providing actionable assessment <hr>
 > <img class="center" src="assets/img/In_N_Out_menu.png" width=40%>
 
 ---
-
-## Assessing Multlple Dimensions
+ 
+## Assessing Multilple Dimensions
 
 # Two Key Questions
 
 
 <ol>
-<li> What facets of knowledge, skills, or abilities are to be understood about a student?</li>
-<li> What characteristics of the tasks/items may interefer with such understanding?</li>
+<li> What facets of knowledge, skills, or abilities (KSAs) are sought to be understood about a student?</li>
+<li> What characteristics of the tasks/items may interfere with such understanding?</li>
 </ol>
 
 
@@ -44,11 +44,12 @@ body {background:grey transparent;}
 
 ## Defining Terms I Will Use Today
 
->- Assessment/test: A collection of tasks used to assess student KSAs
+>- Trait/Skill/Attribute/Ability/Dimension: 
+>  - Score are numeric representations of traits
+>- Assessment/test: A collection of tasks used to quantify scores
 >- Item: A generic term for an assessment task
->- Trait/Skill/Attribute/Ability/Dimension: Scores that come from assessments
 >- Person/student/examinee/respondent: The person taking the assessment
->- Psychometric Models/Methods: The mathematical linkage between the performance and the person
+>- Psychometric Models/Methods: The mathematical linkage between the a student's performance and their score(s)
 
 --- 
 
@@ -60,10 +61,9 @@ body {background:grey transparent;}
 
 ## Common Assessment Specifications
 
-Most large-scale tests are scored using a unidimensional psychometric model
-
+>- Most large-scale tests are scored using a unidimensional psychometric model
 >- Unidimensional: One trait thought to underlie the items
->- One (main) score given to examinees**
+>- One (main) score given to examinees
 > <div style="text-align: center; width: 100%; border: 0px solid black;">
  <img src="assets/img/parcc2016nm.png" width=70% style="vertical-align:">
  </div>
@@ -73,17 +73,7 @@ Most large-scale tests are scored using a unidimensional psychometric model
   </a>
 </div>
 
->- **Sometimes more information is given...we will return to this shortly
-
-<!--
----
-
-## Unidimensionality...By Drill
-
-- For centuries, psychometric theory and pedagogy has claimed a good item is an item that measures only one trait
-- NEED: AN EXAMPLE OF A TEXT THAT DISCUSSES AN ITEM MEASURING ONLY ONE TRAIT
--->
-
+>- Sometimes more information is given...we will return to this shortly
 
 
 ---
@@ -96,10 +86,9 @@ Most large-scale tests are scored using a unidimensional psychometric model
 ---
 
 
+## Definitional Specificity of a Trait
 
-## Definitional Specficity of a Dimension
-
->- The definitional specificity of a dimension is referred to as the grain size
+>- The definitional specificity of a trait is referred to as the grain size
 >  - Driven by the level of specificity with which one desires to make inferences about students on the basis of their test score(s)
 >  - What you want to know about a student
 >- In current summative testing, the grain size is often very coarse
@@ -147,6 +136,15 @@ Consider the following item from a PARCC practice test:
 
 --- 
 
+## Section Summary
+
+>- Traits (and the scores that represent them) are made by definition (grain size)
+>- Most large-scale tests assess one trait, providing one score
+>- As definitional grain size narrows, more traits (and scores) are needed to describe behavior
+>- Additional scores can be good things!
+
+--- 
+
 ## Why Assess Multiple Dimensions?
 
 <img class="center" src="assets/img/physics.gif" width=100%>
@@ -156,14 +154,14 @@ Consider the following item from a PARCC practice test:
 ## Motivations for Multiple Dimensions
 
 >- Additional information needed about student abilities 
->- Nature of some item necessitates multiple dimensions
+>- Nature of some items necessitates multiple dimensions
 >- Constructs/standards are inherently multidimensional
 
 ---
 
 ## Additional Information Needed
 
-Additional information needed about student abilities (i.e., definitional "grain size")
+Additional information needed about student abilities (i.e., definition "grain size")
 
  <div style="text-align: center; width: 100%; border: 0px solid black;">
  <img src="assets/img/ccss1.jpg" width=70% style="vertical-align:">
@@ -179,7 +177,7 @@ Additional information needed about student abilities (i.e., definitional "grain
 
 ## Item Features are Multidimensional
 
-# Nature of some item necessitates multiple dimensions (e.g. testlets)
+# Nature of some items necessitates multiple dimensions (e.g. testlets)
 
 - Example from PARCC practice test for ELA: <a href="https://parcc.pearson.com/practice-tests/english/"> https://parcc.pearson.com/practice-tests/english/</a>
 
@@ -226,8 +224,8 @@ $$P\left(Y_{pi} = 1 \middle| \theta_p, \gamma_p \right) = \frac{\exp\left(\theta
 ## Multidimensional Model for the Math Item
 
 <div style="color: black;">
-<details>
-<summary>Multidimensional Item Charactistic Curve</summary>
+<details open>
+<summary>Multidimensional Item Characteristic Curve</summary>
 <img src="figure/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 </details>
 </div>
@@ -266,9 +264,19 @@ $$\frac{\exp\left(\beta_{0,i} + \beta_{ELA,i}\text{ELA}_p  + \beta_{Math,i}\text
   </a>
 </div>
 
+---
+
+## Section Summary
+
+>- Sometimes, a single score is not sufficient to characterize student test performance, KSAs, or behavior
+>- NGSS have multiple dimensions
+>  - Core ideas
+>  - Crosscutting concepts
+>  - Practices
+
 --- 
 
-## Common Assessment Models are Inadquate for NGSS Dimensions
+## Common Assessment Practices are Inadequate for NGSS Dimensions
 
 <img class="center" src="assets/img/science.gif" width=60%>
 
@@ -277,7 +285,7 @@ $$\frac{\exp\left(\beta_{0,i} + \beta_{ELA,i}\text{ELA}_p  + \beta_{Math,i}\text
 ## Most Operational Multidimensional Models
 
 >- Most large-scale summative testing programs are multidimensional...
->  - but multidimensional by a series of unidimensional tests
+>  - Multidimensional by a series of unidimensional tests
 >- Separate assessment of multiple dimensions
 >  - Example: Assessment of ELA separate from Mathematics
 >- Even testing programs claiming new multidimensional models estimate each dimension separately
@@ -303,14 +311,14 @@ $$\frac{\exp\left(\beta_{0,i} + \beta_{ELA,i}\text{ELA}_p  + \beta_{Math,i}\text
 
 ---
 
-## Much Adoo about Subscores
+## Much Ado about Subscores
 
 Harvesting subscale scores from unidimensional tests is problematic:
 >- A uni- and multidimensional model both cannot be correct
 >- If the unidimensional model was appropriate for the test:
 >  - Subscale scores should see correlations approach 1.0 as the number of items increases
 >- If the multidimensional model was appropriate for the test, then the unidimensional overall (total) score is not valid
->  - Either needs some type of arbitrary method for combining multiple scores (think BMI: total of height and weight of a person)
+>  - Either needs some type of arbitrary method for combining multiple scores (think Body Mass Index: total of height and weight of a person)
 >  - Or, if calibrated with a unidimensional model, the score is likely is not as reliable as is being reported
 >- Subscale scores likely represent error 
 >  - Yet they are what are asked for the most by educators
@@ -322,12 +330,11 @@ Harvesting subscale scores from unidimensional tests is problematic:
 
 ---
 
-## Big Picture Issue:
+## Section Summary
 
-# None of These Methods Allow Multiple Traits to be Measured by an Item
-
+>- None of the commonly-used current large-scale assessment practices allow multiple traits to be measured by an item
 >- In each method mentioned, each item only measures one trait
->- Items built for NGSS assessment inherently will measure more than one trait
+>- Items built for Next Generation Science Standards assessment inherently will measure more than one trait
 >  - One core concept
 >  - One or more cross-cutting ideas
 >  - One or more practices
@@ -343,7 +350,7 @@ Harvesting subscale scores from unidimensional tests is problematic:
 
 ## Multidimensional  Model Familes
 
-# Models That May Work for Assessming NGSS Multidimensionally
+# Models That May Work for Assessing NGSS Multidimensionally
 
 >- Multidimensional IRT Models (MIRT)
 >- Diagnostic Classification Models (DCMs)
@@ -358,20 +365,26 @@ Harvesting subscale scores from unidimensional tests is problematic:
 <p>
 A psychometric model is a mathematical representation of students' item responses
 
-$$Response = f\left(\text{Student Traits}, \text{Item Characteristics}, \text{Control Variables} \right) $$
+$$Response = f\left(\text{Student Score(s)}, \text{Item Characteristics}, \text{Control Variables} \right) $$
 
 >- Left side $\longrightarrow$ Data
->- Right side $\longrightarrow$ Student trait(s), item properties, and design controls
->  - Examples of design controls include effects for item posistion, speededness, multilevel data, etc...
+>- Right side $\longrightarrow$ Student scores(s), item properties, and design controls
+>  - Common item stimulus
+>  - Item position
+>  - Speededness,
+>  - Classroom/school effects (hierarchical/multilevel data)
 >- Many different options exist for what appears on each side
->  - But, each side can be tailored to match each test item's characteristics
+>- Each side can be tailored to match each test item's characteristics
 
 
 ---
 
 ## From Models to Scores
 
-The right-hand side of the model is where students' scores are embedded:
+The right-hand side of the model is where students' score(s) are embedded:
+
+$$Response = f\left(\text{Student Score(s)}, \text{Item Characteristics}, \text{Control Variables} \right) $$
+
 >- The model uses scores to predict how students will perform on item responses
 >  - That seems to imply we have to know students' scores before using a model
 >- We use a function of the model to get estimates of students' scores
@@ -384,7 +397,7 @@ The right-hand side of the model is where students' scores are embedded:
 
 ## Model Left-hand Side $\left(Response\right)$
 
-$$Response = f\left(\text{Student Traits}, \text{Item Characteristics}, \text{Control Variables} \right) $$
+$$Response = f\left(\text{Student Score(s)}, \text{Item Characteristics}, \text{Control Variables} \right) $$
 
 
 >- Useful for different types of items (Generalized Models)
@@ -402,14 +415,14 @@ $$Response = f\left(\text{Student Traits}, \text{Item Characteristics}, \text{Co
 
 ## Right-hand Side
 
-$$Response = f\left(\text{Student Traits}, \text{Item Characteristics}, \text{Control Variables} \right) $$
+$$Response = f\left(\text{Student Score(s)}, \text{Item Characteristics}, \text{Control Variables} \right) $$
 
 >- Item characteristics:
->  - Item parameters that link traits to item response
->  - Quantify how well item measures trait and how much measurement error is included in item
+>  - Item parameters that link score(s) to item response
+>  - Quantify how well the item measures score(s) and how much measurement error is included in item
 >- Control variables:
 >  - Function as a remedy to any design features of items/students to ensure validity of measurement holds
->- Types of traits: 
+>- Types of scores: 
 >  - Continuous (scores; i.e., IRT models/Rasch Models/Factor Analysis)
 >  - Nominal Categories (types of students; i.e., mixture IRT models; not often used in education)
 >  - Ordinal Categories (master vs. non-master; i.e., Diagnostic Classification Models or DCMs)...discussed shortly
@@ -429,10 +442,24 @@ $$P\left(Y_{pi} = 1 \middle| \text{ELA}_p, \text{Math}_p \right) = \frac{\exp\le
 --- &nologo
 
 # Example of a NGSS-type Item
-<div style="font-size: small;"> Source p. 12 <a href="https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf">https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf</a> </div>
+<div style="font-size: small;"> Source p. 17 <a href="https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf">https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf</a> </div>
 
-Example item: <a href = "https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf">"https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf"</a>
-<!-- <iframe src="https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf"></iframe> -->
+<p>
+<div style="text-align: center; width: 100%; border: 0px solid black;">
+<img src="assets/img/exampleitem1.png" width=50% style="vertical-align:"></img>
+</div>
+
+--- &nologo
+
+# Example Item Specifications
+
+<div style="font-size: small;"> Source p. 16 <a href="https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf">https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/DC%20Sample%20Items%20Booklet.pdf</a> </div>
+
+<p>
+<div style="text-align: center; width: 100%; border: 0px solid black;">
+<img src="assets/img/exampleitem2.png" width=70% style="vertical-align:"></img>
+</div>
+
 
 --- 
 
@@ -442,12 +469,6 @@ Imagine a model where each NGSS dimension is measured
 - Practices
 - Core Ideas
 - Cross-cutting Concepts
-
-The model would have scores for each dimension listed:
-
-<div style="text-align: center; width: 100%; border: 0px solid black;">
-<img src="assets/img/ngss_list.png" width=100% style="vertical-align:">
-</div>
 
 ---
 
@@ -512,10 +533,10 @@ From: Templin and Bradshaw (2013; Journal of Classification)
 --- 
 
 
-## IRT Model: Continuous Trait
+## IRT Model: Continuous Scores
 
-# Item Characteristic Curve for an Item Measuring One Trait
-
+# Item Characteristic Curve for an Item Measuring One Score
+<p>
 <img src="figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 --- 
@@ -542,18 +563,18 @@ Where:
 
 --- 
 
-## DCM: Categorical Trait 
+## DCM: Categorical Scores 
 
-# Item Characteristic Bar Chart for an Item Measuring One Trait
-
+# Item Characteristic Bar Chart for an Item Measuring One Score
+<p>
 <img src="figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 --- 
 
-## DCM: Categorical Trait 
+## DCM: Categorical Score 
 
-# Item Characteristic Bar Chart (Two Attributes)
-
+# Item Characteristic Bar Chart (Two Scores)
+<p>
 <img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 
@@ -562,11 +583,11 @@ Where:
 __Technical details__:
 <div style="color: black;">
 <details>
-<summary> DCM Model Parameterization (One Attribute) </summary>
+<summary> DCM Model Parameterization (One Score) </summary>
 
 For a person $p$ and an item $i$, the model specifies:
 
-$$P(X_{pi}=1 \middle| \alpha_p) = \frac{\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_p \right)}{1+\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_p \right)}$$
+$$P(X_{pi}=1 | \alpha_p) = \frac{\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_p \right)}{1+\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_p \right)}$$
 
 Where:
 <ul>
@@ -581,11 +602,11 @@ Where:
 
 <div style="color: black;">
 <details>
-<summary> DCM Model Parameterization (Two Attributes) </summary>
+<summary> DCM Model Parameterization (Two Scores) </summary>
 
 For a person $p$ and an item $i$, the model specifies:
 
-$$P(X_{pi}=1 \middle| \alpha_p) = \frac{\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_{p1} + \lambda_{i,1,(2)} \alpha_{p2}+ \lambda_{i,2,(1,2)} \alpha_{p1}\alpha_{p2}\right)}{1+\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_{p1} + \lambda_{i,1,(2)} \alpha_{p2}+ \lambda_{i,2,(1,2)} \alpha_{p1}\alpha_{p2}\right)}$$
+$$P(X_{pi}=1 | \alpha_p) = \frac{\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_{p1} + \lambda_{i,1,(2)} \alpha_{p2}+ \lambda_{i,2,(1,2)} \alpha_{p1}\alpha_{p2}\right)}{1+\exp\left(\lambda_{i,0} + \lambda_{i,1,(1)} \alpha_{p1} + \lambda_{i,1,(2)} \alpha_{p2}+ \lambda_{i,2,(1,2)} \alpha_{p1}\alpha_{p2}\right)}$$
 
 Where:
 <ul>
@@ -604,6 +625,17 @@ Where:
 
 <img class="center" src="assets/img/math12.png" width=70%>
 
+---
+
+## Section Summary
+
+>- Assessing multiple dimensions simultaneously is difficult
+>- More dimensions necessitates one or more of:
+>  - Changes to the score (e.g., from continuous to categorical)
+>  - More items on the assessment
+
+ <img class="center" src="assets/img/roadblock.jpg" width=50%>
+
 --- 
 
 ## A (Realistic) Model for Assessing NGSS Dimensions Multidimensionally
@@ -614,7 +646,7 @@ Where:
 
 ## Model Building
 
-Here is an idea intended to prompt a discussion of what could a multidimensional NGSS assessment model could look like
+Here is an idea intended to prompt a discussion of what a multidimensional model for NGSS assessment might look like
 
 Within a given grade level:
 
@@ -667,7 +699,7 @@ Within a given grade level:
 
 ## Concluding Remarks
 
->- There is more to the psychometric menu than is currently advertised
+>- There is more to the psychometric menu than is currently advertised <hr>
 > <div style="text-align: center; width: 100%; border: 0px solid black;">
  <img src="assets/img/chipotle-quesarito.jpg" width=40% style="vertical-align:">
  </div>
