@@ -45,7 +45,7 @@ body {background:grey transparent;}
 ## Defining Terms I Will Use Today
 
 >- Trait/Skill/Attribute/Ability/Dimension: 
->  - Score are numeric representations of traits
+>  - Scores are numeric representations of traits
 >- Assessment/test: A collection of tasks used to quantify scores
 >- Item: A generic term for an assessment task
 >- Person/student/examinee/respondent: The person taking the assessment
