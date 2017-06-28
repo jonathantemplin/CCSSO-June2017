@@ -326,7 +326,7 @@ Harvesting subscale scores from unidimensional tests is problematic:
 
 --- &nologo
 
-<iframe src = "https://jtemplin.shinyapps.io/subscorecor/" style="width:100%; height=900px"></iframe>
+<iframe src = "http://jonathantemplin.com:3838/ccsso2017/subscoreCor/" style="width:100%; height=900px"></iframe>
 
 ---
 
@@ -483,7 +483,7 @@ Imagine a model where each NGSS dimension is measured
 
 # More Dimensions $\longrightarrow$ More Items
 
-<iframe src="https://jtemplin.shinyapps.io/subscorerel/" style="width:100%; height=900px"></iframe>
+<iframe src="http://jonathantemplin.com:3838/ccsso2017/subscoreRel/" style="width:100%; height=900px"></iframe>
 
 
 ---
@@ -526,7 +526,7 @@ From: Templin and Bradshaw (2013; Journal of Classification)
 
 # DCM Reliability
 
-<iframe src="https://jtemplin.shinyapps.io/dcmrel/" style="width:100%; height=900px"></iframe>
+<iframe src="http://jonathantemplin.com:3838/ccsso2017/dcmRel/" style="width:100%; height=900px"></iframe>
 
 
 
@@ -670,7 +670,7 @@ Within a given grade level:
 
 # Dichotomous Item Model
 
-<iframe src = "https://jtemplin.shinyapps.io/itemicc/" style="width:100%; height=900px"></iframe>
+<iframe src = "http://jonathantemplin.com:3838/ccsso2017/itemICC/" style="width:100%; height=900px"></iframe>
 
 ---
 
